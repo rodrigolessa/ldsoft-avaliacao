@@ -1,12 +1,21 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
-MinimumVisualStudioVersion = 10.0.40219.1
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LDSoft.Avaliacao.Console", "LDSoft.Avaliacao.Console\LDSoft.Avaliacao.Console.csproj", "{76E3E41C-45E4-49AB-8256-3B38326F7655}"
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "LDSoft.Avaliacao.UI.Web", "LDSoft.Avaliacao.UI.Web\", "{6F248844-E987-4CFF-A635-D6E79B597832}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Apresentação", "1 - Apresentação", "{70AA573D-2678-4695-95CF-E7582F08D8F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Console", "0 - Console", "{C526B0FB-D34B-42D1-BEF1-5F92BCE28A36}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Serviços Distribuidos", "2 - Serviços Distribuidos", "{DD9EEFAA-B102-40D8-9A5B-328AA5F21624}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Infraestrutura de Persistência", "3 - Infraestrutura de Persistência", "{A9837130-FDF2-4FC7-8658-80DF6FC14E43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LDSoft.Avaliacao.Data", "LDSoft.Avaliacao.Data\LDSoft.Avaliacao.Data.csproj", "{E69F4636-C966-4515-9A76-9200F7571755}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "LDSoft.Avaliacao.UI.Web", "http://localhost:60776", "{6F248844-E987-4CFF-A635-D6E79B597832}"
 	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_60776"
 		Debug.AspNetCompiler.PhysicalPath = "LDSoft.Avaliacao.UI.Web\"
@@ -22,20 +31,9 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "LDSoft.Avaliacao.UI.Web", "
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "60776"
 		SlnRelativePath = "LDSoft.Avaliacao.UI.Web\"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Apresentação", "1 - Apresentação", "{70AA573D-2678-4695-95CF-E7582F08D8F0}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Console", "0 - Console", "{C526B0FB-D34B-42D1-BEF1-5F92BCE28A36}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Serviços Distribuidos", "2 - Serviços Distribuidos", "{DD9EEFAA-B102-40D8-9A5B-328AA5F21624}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Infraestrutura de Persistência", "3 - Infraestrutura de Persistência", "{A9837130-FDF2-4FC7-8658-80DF6FC14E43}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LDSoft.Avaliacao.Data", "LDSoft.Avaliacao.Data\LDSoft.Avaliacao.Data.csproj", "{E69F4636-C966-4515-9A76-9200F7571755}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,14 +45,14 @@ Global
 		{76E3E41C-45E4-49AB-8256-3B38326F7655}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76E3E41C-45E4-49AB-8256-3B38326F7655}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76E3E41C-45E4-49AB-8256-3B38326F7655}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6F248844-E987-4CFF-A635-D6E79B597832}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6F248844-E987-4CFF-A635-D6E79B597832}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6F248844-E987-4CFF-A635-D6E79B597832}.Release|Any CPU.ActiveCfg = Debug|Any CPU
-		{6F248844-E987-4CFF-A635-D6E79B597832}.Release|Any CPU.Build.0 = Debug|Any CPU
 		{E69F4636-C966-4515-9A76-9200F7571755}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E69F4636-C966-4515-9A76-9200F7571755}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E69F4636-C966-4515-9A76-9200F7571755}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E69F4636-C966-4515-9A76-9200F7571755}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F248844-E987-4CFF-A635-D6E79B597832}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F248844-E987-4CFF-A635-D6E79B597832}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F248844-E987-4CFF-A635-D6E79B597832}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F248844-E987-4CFF-A635-D6E79B597832}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
