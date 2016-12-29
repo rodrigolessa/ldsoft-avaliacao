@@ -1,0 +1,6 @@
+https://marketplace.visualstudio.com/items?itemName=DidietEkaPermana.CyclopsScaffoldExtension
+https://github.com/DidietEkaPermana/CyclopsScaffold
+https://marketplace.visualstudio.com/items?itemName=VisualStudioALMRangers.UnitTestGenerator
+https://marketplace.visualstudio.com/items?itemName=ChrisJaehnenCJ.BuilderGenerator
+https://marketplace.visualstudio.com/items?itemName=DamiaoCastro.CodeTemplate
+https://marketplace.visualstudio.com/items?itemName=vs-publisher-532596.KnockoutGenerator
